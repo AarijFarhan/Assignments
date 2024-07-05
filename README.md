@@ -1,2 +1,2 @@
-# cards
-make a card like foodpanda
+# Assignment
+contain(card,resume,marksheet)
