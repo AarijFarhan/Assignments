@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.uppersec{
+    height: 13rem;
+    width: 100%;
+    
+}
+
+h1{
+    font-size: 1.5rem;
+    margin-left:25rem;
+}
+.uppersec img{
+     height: 4rem; 
+     margin-left:39rem;
+     
+
+}
+.uppersec div{
+    
+     margin-left:36rem;
+     
+
+}
+.uppersec span{
+   text-decoration: underline;
+   font-weight: 700;
+   margin-bottom: 20rem;
+   padding-bottom: 2rem;
+   margin-left:32rem;
+}
+
+
+
+
+.container{
+    background-color:#DCEFF9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.flex{
+    display: flex;
+    
+    
+}
+
+.flex div{
+    margin-left: 30rem;
+
+}
+.flex span{
+    margin: 3px 0px 12px 12px;
+
+}
+.remaining {
+    margin: 0px 0px 64px 0px;
+
+}
+.remaining div{
+    margin: 3px 0px 12px 12px;
+
+}
+
+.marksheetbox{
+    padding-left: 20rem;
+
+}
+
+table{
+    height:13rem ;
+    width:50rem ;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+td{
+    border: 1px solid;
+    padding-left: 1.5rem;
+   
+}
+strong{
+    text-decoration: underline;
+}
+/* 
+.seperator{
+    border: 1px solid black;
+    width: 24.8%;
+    color: black;
+    margin-top: 23px;
+    position: absolute;
+} */
+
+
+
+
+.flexbox{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    justify-content: center;
+    margin-top: 34px;
+    margin-left: 29rem;
+    
+}
+
+
+.flexbox div{
+    border: 1px solid;
+    padding: 10px 65px 10px 30px;
+    margin-left: 33px;
+    color: black;
+    border-color: black;
+    background-color: #EEF7FC;
+}
+
+.lowersec{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin:20px 0px 0px 20px;
+}
+
+.lowersec span{
+    font-family: "Sacramento", cursive;
+   font-size: 30px;
+
+}
+.middle div{
+   text-decoration: underline;
+}
+.right div{
+   text-decoration: underline;
+}
+
+.left{
+    font-weight: 500;
+    margin-top: 20px;
+}
