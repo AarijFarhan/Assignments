@@ -1,0 +1,439 @@
+
+
+
+/* -----------------For Mx:Width 850px--------------- */
+
+@media only screen and (max-width:850px) {
+    
+    
+    .first p{
+        font-size: 30px;
+    }
+    
+    .email{
+       height: 20vh;
+       width: 100vw;
+    }
+    
+    .email button{
+        font-size: 13px;
+        
+    }
+
+    .email input{
+        
+        font-size: 12px;
+    }
+
+    
+
+    .main img{
+        height: 81vh;
+        width: 100vw;
+    }
+
+   
+
+    .firstleft span {
+        font-size: 17px;
+    }
+    .firstright img {
+        height: 17rem;
+    }
+
+    .firstright video{
+    position: absolute;
+        width: 248px;
+        height: 149px;
+        left: 62px;
+        top: 57px;
+    }
+        
+    
+    h1{
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+    
+    span{
+        font-size: 15px;
+    }
+
+    .secondleft img {
+        height: 29vh;
+    }
+
+    .fourthleft img {
+        height: 20vh;
+    }
+    .seperator1 {
+        margin-top: 6rem;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+.faqbox {
+    padding: 15px 5px 15px 5px; 
+    font-size: 20px;
+}
+
+.emailsection input {
+    padding: 15px 50px 15px 14px;
+    font-size: 12px;
+}
+
+.emailsection button {
+    padding: 8px 16px 8px 16px;
+    font-size: 15px;
+    
+}
+
+}
+
+
+/* -----------------For Mx:Width 600px--------------- */
+
+
+@media only screen and (max-width:600px) {
+    
+   .first p{
+    font-size: 30px;
+
+   }
+
+   .second{
+    font-size: 12px;
+
+   }
+   .third{
+    font-size: 12px;
+
+   }
+    
+   .email{
+    flex-direction: column;
+   }
+   .email button{
+    margin-top: 20px;
+   }
+
+   .main img{
+    height: 79vh;
+   }
+
+   .firstright img {
+    height: 14rem;
+}
+
+.firstright video {
+        position: absolute;
+        width: 211px;
+        height: 149px;
+        left: 42px;
+        top: 34px;
+    }
+
+span {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 21px;
+    }
+    
+    .secondright {
+        margin-right: 0px;
+    }
+
+
+
+}
+
+/* -----------------For Mx:Width 500px--------------- */
+
+
+@media only screen and (max-width:500px) {
+    .first p{
+        font-size: 30px;
+    
+       }
+
+       .third{
+        font-size: 9px;
+       }
+
+       .main img{
+        height: 77.5vh;
+       }
+
+       .firstright video {
+        position: absolute;
+        width: 152px;
+        height: 104px;
+        left: 30px;
+        top: 26px;
+    }
+    .firstleft {
+        width: 34vw;
+    }
+
+    .firstright img {
+        height: 10rem;
+    }
+
+    h1 {
+        font-size: 19px;
+
+    }
+     span {
+        font-size: 10px;
+    }
+    
+    .secondleft img {
+        height: 20vh;
+    }
+    .seperator1 {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+}
+
+
+
+
+
+/* -----------------For Mx:Width 396px--------------- */
+
+
+@media only screen and (max-width:396px) {
+
+    span{
+        font-size: 17px;
+    }
+
+    .first p{
+        font-size: 24px;
+    
+       }
+
+       .third{
+        font-size: 8px;
+       }
+
+       .main img{
+        height: 77.5vh;
+       }
+
+       .firstsec {
+        justify-content: center;
+        margin-top: 4rem;
+        flex-direction: column;
+        align-items: center;
+    }
+      
+       .firstleft {
+        height: 20vh;
+        width: 50vw;
+    }
+
+    .secondsec {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .secondleft img {
+        height: 16vh;
+        margin-bottom: 1rem;
+    }
+    .secondright {
+        width: 57vw;
+        margin-right: 0px;
+
+    }
+
+.thirdleft {
+    width: 50vw;
+}
+
+.thirdsec {
+    justify-content: center;
+}
+
+    .fourthsec {   
+        flex-direction: column;
+        justify-content: center;   
+    }
+
+    .fourthright {
+        width: 77vw;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .faqbox {
+        padding: 11px 5px 11px 5px;
+        font-size: 16px;
+    }
+    .span span {
+        font-size: 10px;
+    }
+    .faqbox img {
+        height: 1rem;
+        width: 1rem;
+    }
+    .emailsection {
+        margin: auto;
+        width: 80vw;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .emailsection button {
+        margin-top: 1rem;
+        padding: 8px 8px 8px 8px;
+        font-size: 15px;
+    }
+
+
+
+}
+
+
+/* -----------------For Mx:Width 334px--------------- */
+
+
+@media only screen and (max-width:334px) {
+
+    .nav button {
+        padding: 6px 10px;
+    
+    }
+
+    .nav img {
+        height: 32px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+        margin: auto;
+        align-items: center;
+        height: 10vh;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+
+
+
+    .first p{
+        font-size: 20px;
+    
+       }
+       .third{
+        font-size: 7px;
+       }
+
+       .second{
+        font-size: 10px;
+    
+       }
+
+       .main img{
+        height: 75.5vh;
+       }
+       h2{
+        font-size: 20px;
+       }
+
+       .seperator1 {
+        width: 114vw;
+       }
+       .seperator {
+        width: 114vw;
+       }
+
+
+}
+
+
+
+
+
+/* -----------------For Mx:Width 300px--------------- */
+
+@media only screen and (max-width:300px) {
+    
+    h2 {
+      
+        font-size: 17px;
+    }
+}
+
+
+
+
+
+
+/* -----------------For Min:Width 1400px--------------- */
+
+@media only screen and (min-width:1400px) {
+    .first p{
+        font-size: 60px;
+    
+       }
+
+       .third{
+        font-size: 19px;
+       }
+
+       .second{
+        font-size: 20px;
+    
+       }
+
+       .main img{
+        height: 87.8vh;
+       }
+
+       .bottom{
+        font-size: 13px;
+
+
+       }
+       .footer span {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 50px;
+
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
