@@ -7,7 +7,12 @@
     
     
     .first p{
+
+        width: 90vw;
+        display: flex;
         font-size: 30px;
+        justify-content: center;
+        margin: auto;
     }
     
     .email{
@@ -28,7 +33,8 @@
     
 
     .main img{
-        height: 81vh;
+        /* height: 81vh; */
+        height: 87vh;
         width: 100vw;
     }
 
@@ -92,6 +98,11 @@ h2 {
 
 }
 
+@media only screen and (max-width:661px) {
+    .main img{
+        height: 93vh;
+    }
+}
 
 /* -----------------For Mx:Width 600px--------------- */
 
@@ -99,7 +110,11 @@ h2 {
 @media only screen and (max-width:600px) {
     
    .first p{
+    width: 90vw;
+    display: flex;
     font-size: 30px;
+    justify-content: center;
+    margin: auto;
 
    }
 
@@ -120,7 +135,8 @@ h2 {
    }
 
    .main img{
-    height: 79vh;
+    /* height: 79vh; */
+    height: 91vh;
    }
 
    .firstright img {
@@ -151,12 +167,18 @@ span {
 
 }
 
+
+
 /* -----------------For Mx:Width 500px--------------- */
 
 
 @media only screen and (max-width:500px) {
     .first p{
+        width: 90vw;
+        display: flex;
         font-size: 30px;
+        justify-content: center;
+        margin: auto;
     
        }
 
@@ -165,7 +187,8 @@ span {
        }
 
        .main img{
-        height: 77.5vh;
+        /* height: 77.5vh; */
+        height: 90.5vh;
        }
 
        .firstright video {
@@ -215,7 +238,11 @@ span {
     }
 
     .first p{
-        font-size: 24px;
+        width: 90vw;
+        display: flex;
+        font-size: 27px;
+        justify-content: center;
+        margin: auto;
     
        }
 
@@ -224,7 +251,8 @@ span {
        }
 
        .main img{
-        height: 77.5vh;
+        /* height: 77.5vh; */
+        height: 89.5vh;
        }
 
        .firstsec {
@@ -330,7 +358,11 @@ span {
 
 
     .first p{
-        font-size: 20px;
+     width: 90vw;
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+    margin: auto;
     
        }
        .third{
@@ -343,8 +375,10 @@ span {
        }
 
        .main img{
-        height: 75.5vh;
+        /* height: 75.5vh; */
+        height: 87.5vh;
        }
+
        h2{
         font-size: 20px;
        }
@@ -381,8 +415,13 @@ span {
 /* -----------------For Min:Width 1400px--------------- */
 
 @media only screen and (min-width:1400px) {
+    
     .first p{
+        width: 90vw;
+        display: flex;
         font-size: 60px;
+        justify-content: center;
+        margin: auto;
     
        }
 
@@ -395,8 +434,9 @@ span {
     
        }
 
-       .main img{
-        height: 87.8vh;
+       .seperator{
+        margin-top: 3rem;
+        
        }
 
        .bottom{
@@ -414,6 +454,9 @@ span {
 
     
 }
+
+
+
 
 
 
