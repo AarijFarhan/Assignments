@@ -37,12 +37,16 @@ body{
     border-radius: 2px;
 }
 
+.main{
+    height: 100%;
+}
+
 .main img{
     position: absolute;
     top:0;
     z-index: -1;
     opacity: 0.23;
-    height: 83vh;
+    height:83vh ;
     width: 100vw;
 }
 
@@ -62,8 +66,9 @@ body{
 .first p{
     width: 90vw;
     display: flex;
-    font-size: 40px;
+    font-size: 30px;
     justify-content: center;
+    margin: auto;
     
 
 }
@@ -167,14 +172,13 @@ span{
     height: 5px;
     width: 100vw;
     background-color: rgb(83, 81, 81);
-    margin-top: 12rem;
 }
 
 .firstsec{
    width: 100vw;
     margin-top: 5rem;
     display: flex;
-    height: 30vh; 
+    height: 50vh; 
     align-items: center;
    justify-content: space-around;
 
@@ -183,20 +187,25 @@ span{
 }  
 
 .secondsec{
+    width: 100vw;
+    margin-top: 5rem;
     display: flex;
+    height: 50vh; 
     align-items: center;
-    justify-content: space-around;
+   justify-content: space-around;
+
 
 
 }
 
 .thirdsec{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 20vh;
-    width: 100vw; 
+    width: 100vw;
     margin-top: 5rem;
+    display: flex;
+    height: 70vh; 
+    align-items: center;
+   justify-content: space-around;
+
     
 }
 
@@ -205,11 +214,13 @@ span{
 }
 
 .fourthsec{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 5rem;
     width: 100vw;
+    margin-top: 5rem;
+    display: flex;
+    height: 50vh; 
+    align-items: center;
+   justify-content: space-around;
+
      
     
 }
@@ -286,6 +297,10 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.contactsection{
+    height: 20vh;
+}
+
 .span{
     display: flex;
     justify-content: center;
@@ -332,6 +347,7 @@ input:hover{
     border-color: 1px solid white;
     color: white;
 }
+
 
 
 
