@@ -1,10 +1,59 @@
 
 
+/* -----------------For Mn:Width 1000px--------------- */
 
-/* -----------------For Mx:Width 850px--------------- */
+@media only screen and (min-width:1000px) {
 
-@media only screen and (max-width:850px) {
+    .first p{
+        font-size: 40px;
+    }
+
+    .main img{
+        height: 96vh;
+    }
+   
+    .firstright img {
+        height: 14rem;
+    }
+
+.firstsec{
+    height: 50vh;
+    align-items: center;
+}
+
+
+.firstright video {
+    position: absolute;
+    width: 211px;
+    height: 119px;
+    left: 44px;
+    top: 48px;
+}
+
+.secondleft img {
+    height: 38vh;
+}
+
+    h1{
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
     
+    span{
+        font-size: 13px;
+    }
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width:999px) {
+    
+
     
     .first p{
 
@@ -15,37 +64,36 @@
         margin: auto;
     }
     
-    .email{
-       height: 20vh;
-       width: 100vw;
-    }
-    
-    .email button{
-        font-size: 13px;
-        
-    }
-
-    .email input{
-        
-        font-size: 12px;
-    }
-
-    
-
     .main img{
-        /* height: 81vh; */
-        height: 87vh;
-        width: 100vw;
+        height: 94vh;
+
     }
 
-   
-
-    .firstleft span {
-        font-size: 17px;
+    .firstsec{
+        height: 33vh;
+        
     }
-    .firstright img {
+    .secondsec{
+        height: 36vh;
+
+    }
+    .thirdsec{
+        height: 33vh;
+
+    }
+    .fourthsec{
+        height: 33vh;
+
+    }
+
+    .contactsection{
+        height: 15vh;
+    }
+
+
+   .firstright img {
         height: 17rem;
-    }
+    } 
 
     .firstright video{
     position: absolute;
@@ -70,11 +118,14 @@
     }
 
     .fourthleft img {
-        height: 20vh;
+        height: 25vh;
     }
     .seperator1 {
         margin-top: 6rem;
-}
+        margin-bottom: 3rem;
+    }
+
+
 
 h2 {
     font-size: 27px;
@@ -98,28 +149,29 @@ h2 {
 
 }
 
+/* -----------------For Mx:Width 661px--------------- */
 @media only screen and (max-width:661px) {
     .main img{
         height: 93vh;
     }
 }
 
-/* -----------------For Mx:Width 600px--------------- */
+/* -----------------For Mx:Width 675px--------------- */
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:675px) {
     
    .first p{
     width: 90vw;
     display: flex;
-    font-size: 30px;
+    font-size: 27px;
     justify-content: center;
     margin: auto;
 
    }
 
    .second{
-    font-size: 12px;
+    font-size: 14px;
 
    }
    .third{
@@ -130,13 +182,26 @@ h2 {
    .email{
     flex-direction: column;
    }
-   .email button{
-    margin-top: 20px;
+
+   .email input{
+    margin: 20px 0px 10px 0px;
    }
 
+   .nav img {
+    height: 30px;
+}
+
+.nav button {
+    font-size: 9px;
+    background-color: red;
+    color: white;
+    border-color: transparent;
+    padding: 6px 9px;
+    border-radius: 2px;
+}
+
    .main img{
-    /* height: 79vh; */
-    height: 91vh;
+    height: 91.5vh;
    }
 
    .firstright img {
@@ -159,9 +224,29 @@ span {
         font-size: 21px;
     }
     
-    .secondright {
-        margin-right: 0px;
+    .emailsection input {
+        margin: auto;
+        width: 50vh;
+        margin-bottom:15px;
+       
     }
+
+    .emailsection button {
+        
+        margin: auto;
+        width: 23vw;
+        padding: 8px 16px 8px 16px;
+        font-size: 15px;
+    }
+
+    .emailsection  {
+        flex-direction:column;
+       
+    }
+
+
+
+ 
 
 
 
@@ -169,291 +254,294 @@ span {
 
 
 
-/* -----------------For Mx:Width 500px--------------- */
+/* -----------------For Mx:Width 610px--------------- */
 
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:610px) {
     .first p{
-        width: 90vw;
-        display: flex;
-        font-size: 30px;
-        justify-content: center;
-        margin: auto;
+
+        font-size: 23px;
+
     
        }
 
        .third{
-        font-size: 9px;
+        font-size: 12px;
        }
 
        .main img{
-        /* height: 77.5vh; */
-        height: 90.5vh;
-       }
+         height: 90.5vh;
+       } 
 
-       .firstright video {
-        position: absolute;
-        width: 152px;
-        height: 104px;
-        left: 30px;
-        top: 26px;
-    }
-    .firstleft {
-        width: 34vw;
+       .faqbox {
+        padding: 12px 5px 12px 5px;
+        font-size: 13px;
     }
 
-    .firstright img {
-        height: 10rem;
+    .emailsection input {
+        width: 44vh;
     }
 
-    h1 {
-        font-size: 19px;
-
-    }
-     span {
-        font-size: 10px;
-    }
-    
-    .secondleft img {
-        height: 20vh;
-    }
-    .seperator1 {
-        margin-top: 5rem;
-        margin-bottom: 5rem;
+    .emailsection button {
+        width: 17vw;
+        padding: 6px 13px 6px 13px;
+        font-size: 9px;
     }
 
+}
+.email button {
+    background-color: red;
+    color: white;
+    border-color: transparent;
+    padding: 10px 24px 10px 24px;
+    border-radius: 2px;
+    margin-left: 5px;
+    font-weight: bolder;
+    font-size: 15px;
 }
 
 
 
 
 
-/* -----------------For Mx:Width 396px--------------- */
+/* -----------------For Mx:Width 541px--------------- */
 
 
-@media only screen and (max-width:396px) {
+ @media only screen and (max-width:541px) {
 
-    span{
-        font-size: 17px;
+    .nav{
+        align-items: center;
     }
 
+    .nav img {
+        height: 21px;
+    }
+    .nav button {
+        font-size: 7px;
+        background-color: red;
+        color: white;
+        border-color: transparent;
+        padding: 4px 8px;
+        border-radius: 2px;
+    }
+
+
     .first p{
-        width: 90vw;
-        display: flex;
-        font-size: 27px;
-        justify-content: center;
-        margin: auto;
-    
+   
+        font-size: 20px;
+
        }
 
        .third{
         font-size: 8px;
        }
 
-       .main img{
-        /* height: 77.5vh; */
+       .main img {
         height: 89.5vh;
-       }
+    }
 
-       .firstsec {
+    .firstsec {
         justify-content: center;
-        margin-top: 4rem;
         flex-direction: column;
         align-items: center;
+        height: 25vh;
     }
-      
-       .firstleft {
-        height: 20vh;
-        width: 50vw;
+    .firstleft {
+        width: 68vw;
+    }
+    .firstright img {
+        height: 10rem;
+    }
+    .firstright video {
+        position: absolute;
+        width: 152px;
+        height: 149px;
+        left: 31px;
+        top: 3px;
     }
 
-    .secondsec {
+    .secondsec{
         flex-direction: column;
-        justify-content: center;
+        height:40vh;
     }
 
     .secondleft img {
-        height: 16vh;
-        margin-bottom: 1rem;
+        height: 25vh;
+        margin-bottom:1rem;
     }
+
     .secondright {
-        width: 57vw;
-        margin-right: 0px;
-
+        width: 45vw;
     }
 
-.thirdleft {
-    width: 50vw;
-}
-
-.thirdsec {
-    justify-content: center;
-}
-
-    .fourthsec {   
+    .thirdsec{
         flex-direction: column;
-        justify-content: center;   
+    }
+    .thirdsec{
+        flex-direction: column;
+    }
+    .fourthsec{
+        flex-direction: column;
+        height: 40vh;
+        
     }
 
     .fourthright {
-        width: 77vw;
+        width: 46vw;
+    }
+
+    span{
+        font-size:13px;
+    }
+    h1{
+        font-size:18px;
+    }
+
+    .faqbox img {
+        height: 1rem;
+        width: 1rem;
+    }
+
+    .faqbox {
+        width: 65vw;
     }
 
     h2 {
         font-size: 23px;
     }
-
-    .faqbox {
-        padding: 11px 5px 11px 5px;
-        font-size: 16px;
-    }
-    .span span {
+    span {
         font-size: 10px;
     }
-    .faqbox img {
-        height: 1rem;
-        width: 1rem;
-    }
-    .emailsection {
-        margin: auto;
-        width: 80vw;
-        flex-direction: column;
-        margin-top: 2rem;
+    .emailsection input {
+        width: 27vh;
     }
     .emailsection button {
-        margin-top: 1rem;
-        padding: 8px 8px 8px 8px;
-        font-size: 15px;
+        width: 23vw;
     }
-
-
+    .secondleft img {
+        height: 22vh;
+        margin-bottom: 1rem;
+    }
+    .secondright {
+        width: 49vw;
+    }
+    .thirdsec {
+        height: 21vh;
+    }
 
 }
 
 
-/* -----------------For Mx:Width 334px--------------- */
+/* -----------------For Mx:Width 440px--------------- */
 
 
-@media only screen and (max-width:334px) {
-
-    .nav button {
-        padding: 6px 10px;
-    
+@media only screen and (max-width:440px) {
+    .first p {
+        font-size: 16px;
     }
-
-    .nav img {
-        height: 32px;
-    }
-    .nav{
-        display: flex;
-        justify-content: space-between;
-        width: 90vw;
-        margin: auto;
-        align-items: center;
-        height: 10vh;
-        margin-top: 1rem;
-        margin-left: 2rem;
-    }
-
-
-
-    .first p{
-     width: 90vw;
-    display: flex;
-    font-size: 23px;
-    justify-content: center;
-    margin: auto;
-    
-       }
-       .third{
-        font-size: 7px;
-       }
-
-       .second{
+    .second {
         font-size: 10px;
-    
-       }
-
-       .main img{
-        /* height: 75.5vh; */
+    }
+    .email input {
+        font-size: 8px;
+        width: 12vw;
+        margin: 20px 0px 10px 0px;
+    }
+    .email button {
+        background-color: red;
+        color: white;
+        border-color: transparent;
+        padding: 8px 16px 8px 15px;
+        border-radius: 2px;
+        margin-left: 5px;
+        font-weight: bolder;
+        font-size: 9px;
+    }
+    .main img {
         height: 87.5vh;
-       }
-
-       h2{
-        font-size: 20px;
-       }
-
-       .seperator1 {
-        width: 114vw;
-       }
-       .seperator {
-        width: 114vw;
-       }
-
-
-}
-
-
-
-
-
-/* -----------------For Mx:Width 300px--------------- */
-
-@media only screen and (max-width:300px) {
-    
-    h2 {
-      
-        font-size: 17px;
     }
+    .thirdleft {
+        width: 40vw;
+    }
+
+    .fourthsec {
+          height: 45vh;
+    }
+    .thirdsec {
+        height: 15vh;
+    }
+
+
+
+
+
 }
 
 
 
 
+/* -----------------For Mx:Width 400px--------------- */
 
-
-/* -----------------For Min:Width 1400px--------------- */
-
-@media only screen and (min-width:1400px) {
-    
-    .first p{
-        width: 90vw;
-        display: flex;
-        font-size: 60px;
-        justify-content: center;
-        margin: auto;
-    
-       }
-
-       .third{
-        font-size: 19px;
-       }
-
-       .second{
-        font-size: 20px;
-    
-       }
-
-       .seperator{
-        margin-top: 3rem;
-        
-       }
-
-       .bottom{
-        font-size: 13px;
-
-
-       }
-       .footer span {
+@media only screen and (max-width:400px) {
+  
+    .first p {
         font-size: 13px;
     }
-    h2 {
-        font-size: 50px;
-
+    .second {
+        font-size: 7px;
+    }
+    .third {
+        font-size: 7px;
+    }
+    .main img {
+        height: 85.5vh;
+    }
+    .emailsection button {
+        width: 31vw;
+    }
+    .thirdsec {
+        height: 21vh;
     }
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+/* -----------------For Mx:Width 350px--------------- */
+
+
+@media only screen and (max-width:350px) {
+    h2 {
+        font-size: 18px;
+    }
+
+
+    .fourthright {
+        width: 56vw;
+    }
+    .secondsec {
+        flex-direction: column;
+        height: 42vh;
+    }
+    .thirdsec {
+        height: 23vh;
+    }
+
+}
+
 
 
 
