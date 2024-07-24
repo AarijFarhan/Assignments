@@ -3,6 +3,10 @@
 /* -----------------For Mn:Width 1000px--------------- */
 
 @media only screen and (min-width:1000px) {
+    .footer{
+        padding-top: 1rem;
+    }
+
 
     .first p{
         font-size: 40px;
